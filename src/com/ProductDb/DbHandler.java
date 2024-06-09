@@ -13,8 +13,8 @@ public class DbHandler {
 
         // Establish the connection
         String url = "jdbc:mysql://localhost:3306/practice";
-        String username = "user";
-        String password = "1234Abcd!";
+        String username = "username";
+        String password = "password";
         connection = DriverManager.getConnection(url, username, password);
 
         // Create the users table if it doesn't exist
